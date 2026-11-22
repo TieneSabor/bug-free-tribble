@@ -1,0 +1,167 @@
+{
+ "edge_kinds": [
+  "walk",
+  "jump",
+  "jet",
+  "drop"
+ ],
+ "edges": 44598,
+ "fields": {
+  "alt": [
+   [
+    "dist",
+    "u16"
+   ]
+  ],
+  "edges": [
+   [
+    "off",
+    "i32"
+   ],
+   [
+    "dst",
+    "i32"
+   ],
+   [
+    "len",
+    "f32"
+   ],
+   [
+    "kind",
+    "u8"
+   ]
+  ],
+  "layers": [
+   [
+    "standable",
+    "u8"
+   ],
+   [
+    "floor",
+    "i16"
+   ],
+   [
+    "clear",
+    "u8"
+   ],
+   [
+    "wall",
+    "u8"
+   ],
+   [
+    "head",
+    "u8"
+   ],
+   [
+    "comp",
+    "u16"
+   ]
+  ],
+  "nodes": [
+   [
+    "x",
+    "f32"
+   ],
+   [
+    "y",
+    "f32"
+   ],
+   [
+    "z",
+    "f32"
+   ],
+   [
+    "layer",
+    "u8"
+   ],
+   [
+    "clear",
+    "u8"
+   ],
+   [
+    "comp",
+    "u16"
+   ],
+   [
+    "hidden_near",
+    "u8"
+   ],
+   [
+    "hidden_far",
+    "u8"
+   ],
+   [
+    "conceal",
+    "u8"
+   ],
+   [
+    "sight_len",
+    "u8"
+   ],
+   [
+    "escapes",
+    "u8"
+   ],
+   [
+    "open_dir",
+    "i16"
+   ],
+   [
+    "hold",
+    "u8"
+   ]
+  ],
+  "occ": [
+   [
+    "ground",
+    "i16"
+   ],
+   [
+    "base",
+    "i16"
+   ],
+   [
+    "top",
+    "i16"
+   ],
+   [
+    "cov",
+    "u8"
+   ],
+   [
+    "canopy",
+    "u8"
+   ],
+   [
+    "free_g",
+    "u8"
+   ],
+   [
+    "free_r",
+    "u8"
+   ]
+  ]
+ },
+ "format": 1,
+ "grid_m": 1.0,
+ "hashes": {
+  "alt": "fae785ebd8338fac",
+  "edges": "8473d7f93d579996",
+  "layers": "c4ef71cc94d26e5f",
+  "nodes": "6137c0ea0c395105",
+  "occ": "e818958f4b03dc43"
+ },
+ "landmarks": [
+  0,
+  6804
+ ],
+ "main_comp": 0,
+ "min_x": -513.0,
+ "min_y": -334.0,
+ "nodes": 6805,
+ "nx": 1070,
+ "nx2": 535,
+ "ny": 724,
+ "ny2": 362,
+ "world_version": 2
+}

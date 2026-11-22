@@ -1,0 +1,16 @@
+# Local captures and proxy material — never commit.
+recordings/
+rivals/
+tools/certs/
+*.pem
+*.key
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Local dependency installs — never commit.
+.venv/
+node_modules/
+.cache/
